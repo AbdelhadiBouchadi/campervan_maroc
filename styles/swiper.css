@@ -1,0 +1,44 @@
+.swiper_container {
+    /* height: 36rem; */
+    padding: 4rem 2rem;
+    position: relative;
+  }
+  
+  .swiper_container .swiper-slide {
+    width: 36rem;
+    /* height: 36rem; */
+    position: relative;
+  }
+  
+  .swiper_container .swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+  }
+  
+  @media (max-width: 500px) {
+    .swiper_container {
+      height: 24rem;
+    }
+   .swiper-3d .swiper-slide {
+      width: 12em !important ;
+      height: 16rem !important ;
+    }
+   .swiper-3d .swiper-slide img {
+      width: 12rem !important ;
+      height: 16rem !important ;
+    }
+  }
+  
+  .swiper-3d .swiper-slide img {
+    width: 20rem;
+    height: 26rem;
+    border-radius: 2rem;
+    object-fit: cover;
+  }
+  
+  .swiper-slide-shadow-left,
+  .swiper-slide-shadow-right {
+    display: none;
+  }
