@@ -78,7 +78,7 @@ const Renting = () => {
               </Button>
               <Button radius="full" className="bg-[#9D511D]">
                 <Link
-                  href="https://air.tl/DYhE3Vwz"
+                  href="https://wa.me/+212666077916"
                   target="_blank"
                   className="uppercase text-white font-medium px-4"
                 >
@@ -187,25 +187,6 @@ const Renting = () => {
           />
         </div>
         <div className="flex flex-col lg:flex-row justify-center items-end lg:items-center w-[80%] gap-6 xl:gap-12 mt-4 ">
-          <div>
-            <Link
-              href="https://air.tl/DYhE3Vwz"
-              target="_blank"
-              className="flex flex-col xl:flex-row justify-center items-center gap-2"
-            >
-              <div className="flex justify-center items-center w-20 h-20 border-[6px] border-white rounded-full">
-                <SiAirbnb className="text-center w-12 h-12 text-white my-auto" />
-              </div>
-              <div className=" flex-col justify-center items-start text-white hidden xl:flex">
-                <p className="text-lg 2xl:text-2xl font-semibold">
-                  Hôte : Yassine
-                </p>
-                <p className="text-[#DCD4D4] font-normal text-lg text-start ">
-                  Superhôte
-                </p>
-              </div>
-            </Link>
-          </div>
           <div>
             <Link
               href="https://wa.me/+212666077916"
